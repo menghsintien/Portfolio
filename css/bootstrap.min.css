@@ -3683,7 +3683,8 @@ select[multiple].input-lg {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none
+    user-select: none;
+    text-decoration: none;
 }
 
 .btn:focus,
@@ -5449,7 +5450,8 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-brand {
-    color: #ffffff
+    color: #ffffff;
+        text-decoration-line:none;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -5463,7 +5465,8 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #ffffff
+    color: #ffffff;
+         text-decoration-line:none;
 }
 
 .navbar-default .navbar-nav>li>a:hover,

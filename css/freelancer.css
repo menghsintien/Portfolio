@@ -17,13 +17,19 @@ p.small {
 }
 
 a,
-a:hover,
 a:focus,
 a:active,
-a.active {
+a.active
+ {
     outline: 0;
-    color: whitesmoke;
+    color: gray;
+     text-decoration-line: underline;
+    
 }
+a:hover{color: lightgray;}
+
+
+
 
 
 
