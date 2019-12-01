@@ -61,7 +61,7 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #d7b3af;
+    border-color: #2c3e50;
 }
 
 hr.star-light:after {
@@ -70,7 +70,7 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: ;
 }
 
 hr.star-primary:after {
@@ -194,13 +194,15 @@ section.success {
 }
 
 section.success a,
-section.success a:hover,
+
 section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
     color: #2c3e50;
 }
+
+section.success a:hover{color:#fff;}
 
 @media(max-width:767px) {
     
@@ -290,9 +292,8 @@ section.success a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: whitesmoke;
-    background: #fff;
+    border: solid 2px #d7b3af;
+    background: #d7b3af;
 }
 
 .floating-label-form-group {
