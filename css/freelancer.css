@@ -105,6 +105,8 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+#icon{height:350px;}
+
 @media(min-width:768px) {
     
     
